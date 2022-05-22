@@ -1,0 +1,93 @@
+/* intuitivnejsi box-sizing */
+html { box-sizing: border-box; }
+*, ::before, ::after { box-sizing: inherit; }
+
+body {
+	font-family: Montserrat;
+	font-size: 16px;
+    background-color: #FAFAFA;
+    color:#8B8B8B;
+}
+
+.kontejner {
+    width: 500px;
+    padding: 60px 75px 75px 60px;
+    border:1px solid #8B8B8B;
+    text-align: center;   
+    margin: auto;
+}
+
+.image {
+    width: 100%;
+}
+
+h1 {
+    font-family: Montserrat, Medium;
+    font-size: 28px;
+    color: #000000;
+}
+
+.line {
+    border: 1px solid #407BFF;
+    width: 60px;
+    margin:auto;
+}
+
+h2 {
+    font-family: Montserrat, Medium;
+    font-size:16px;
+    color: #000000;
+    margin-top:60px;
+    margin-bottom: 17px;
+}
+
+
+
+.button {
+    border-radius: 20px 20px 20px 20px;
+    background-color: #407BFF;
+    font-family: Montserrat, Regular;
+    font-size:14px;
+    border: 1px solid #407BFF;
+    color:white;
+    padding: 11px 30px 11px 30px;
+}
+
+.adventure {
+    background-color: #407BFF;
+    margin-top:30px;
+}
+
+.relax {
+    background-color: #8B8B8B;
+    border: 1px solid #8B8B8B;
+    margin-top:10px;
+}
+
+
+.maps-icon,
+.kaktus-icon, 
+.air-plane, 
+.palm-icon, 
+.umbrella-icon, 
+.rv-icon
+{ 
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #407BFF1F 0px 4px 6px;
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 460px;
+    text-align: center;
+
+}
+
+.map, 
+.kaktus, 
+.plane,
+.palm,
+.umbrella, 
+.rv-car {
+    float:left;
+}
+
